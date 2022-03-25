@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirstLab</string>
+
+    <string-array name="words">
+        <item>procedure</item>
+        <item>excitement</item>
+        <item>instruction</item>
+        <item>entry</item>
+        <item>resolution</item>
+        <item>membership</item>
+        <item>depression</item>
+        <item>construction</item>
+        <item>discussion</item>
+        <item>engineering</item>
+    </string-array>
+</resources>
