@@ -49,6 +49,7 @@ class GameActivity : AppCompatActivity() {
     }
 
     fun nextWord(){
+        if(index == 10) setContentView(R.layout.activity_game_win)
         currentWord = words[index]
         shuffledWord =  String(currentWord.toCharArray().apply { shuffle() })
 
